@@ -1,0 +1,28 @@
+.radio {
+  cursor: pointer;
+  position: relative;
+  width: max-content;
+  display: flex;
+  align-items: center;
+}
+
+.radio input {
+    position: absolute;
+    width: 0;
+    height: 0;
+  }
+
+.radio span {
+    min-width: 18px;
+    min-height: 18px;
+    border: 1px solid rgba(24, 24, 26, 0.4);
+    margin-right: 0.6rem;
+    border-radius: 100%;
+  }
+.radio input:checked + span {
+    border: 4px solid #00C972;
+  }
+
+.radio p {
+    font-weight: 500;
+}

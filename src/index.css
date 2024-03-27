@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.template_color {
+  display: none;
+  /*display: grid;*/
+  grid-gap: 2px;
+  position: fixed;
+  padding: 10px;
+  background-color: #fff;
+  /*border: 1px solid #ccc;*/
+  box-shadow: 0 .2rem 1.6rem 0 rgba(136, 136, 136, 0.2);
+  border-radius: 10px;
+
+}
